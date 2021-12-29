@@ -7,15 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Catalina Hernández</title>
     <meta name="description" content="Portfolio comunicadora audiovisual" />
-
-    <link rel="stylesheet" href="../css/style.css" />
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -223,6 +224,60 @@
           </div>
         </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div class="contenedor">
+        <h3 style="text-align: center;" class="about__content-title">Cosas que me gustan</h3>
+      <div class="carousel">
+        <div class="carousel__contenedor">
+          <button aria-label="Anterior" class="carousel__anterior">
+            <i class="fas fa-chevron-left"></i>
+          </button> 
+          <div class="carousel__lista">
+            <div class="carousel__elemento">
+              <img src="./assets/1.png" alt="Rock and Roll Hall of Fame">
+              <p style="font-size: 16px; font-weight: bold;">DISEÑAR</p>
+            </div>
+            <div class="carousel__elemento">
+              <img src="./assets/2.png" alt="Constitution Square - Tower I">
+              <p style="font-size: 16px; font-weight: bold;">FOTOGRAFÍA</p>
+            </div>
+            <div class="carousel__elemento">
+              <img src="./assets/3.png" alt="Empire State Building">
+              <p style="font-size: 16px; font-weight: bold;">HACER PUBLICIDAD</p>
+            </div>
+            <div class="carousel__elemento">
+              <img src="./assets/4.png" alt="Harmony Tower">
+              <p style="font-size: 16px; font-weight: bold;">LEER UN BUEN LIBRO</p>
+            </div>    
+            <div class="carousel__elemento">
+              <img src="./assets/5.png" alt="Empire State Building">
+              <p style="font-size: 16px; font-weight: bold;">EDITAR</p>
+            </div>
+            <div class="carousel__elemento">
+              <img src="./assets/6.png" alt="Harmony Tower">
+              <p style="font-size: 16px; font-weight: bold;">BAILAR Y ESCUCHAR MÚSICA</p>
+            </div>
+            <div class="carousel__elemento">
+              <img src="./assets/7.png" alt="Empire State Building">
+              <p style="font-size: 16px; font-weight: bold;">VIAJAR</p>
+            </div>
+            <div class="carousel__elemento">
+              <img src="./assets/8.png" alt="Harmony Tower">
+              <p style="font-size: 16px; font-weight: bold;">HACER EJERCICIO</p>
+            </div>
+          </div>
+          <button aria-label="Siguiente" class="carousel__siguiente">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>  
+        <div role="tablist" class="carousel__indicadores"></div>
+      </div>
+    </div>
+  </div>
     </section>
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
@@ -495,7 +550,6 @@
             </p>
           </div>
         </div>
-
         <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
           &copy; Copyright 2021. Diseño & Desarrollo <br />
@@ -510,6 +564,8 @@
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
   </body>
 </html>
