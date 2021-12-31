@@ -178,7 +178,7 @@
         </h2>
         <div class="about__content">
           <div class="about__content-main">
-            <h3 class="about__content-title">Descubre quien soy</h3>
+            <h3 class="about__content-title">Descubre quien soy😃</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
                 Hola de nuevo, soy
@@ -202,7 +202,7 @@
               </p>
             </div>
             <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contacto</a
+              >Curriculum</a
             >
           </div>
           <div class="about__content-skills">
@@ -229,57 +229,36 @@
       <br/>
       <br/>
       <br/>
-      <div class="contenedor">
-        <h3 style="text-align: center;" class="about__content-title">Cosas que me gustan</h3>
-      <div class="carousel">
-        <div class="carousel__contenedor">
-          <button aria-label="Anterior" class="carousel__anterior">
-            <i class="fas fa-chevron-left"></i>
-          </button> 
-          <div class="carousel__lista">
-            <div class="carousel__elemento">
-              <img src="./assets/1.png" alt="Rock and Roll Hall of Fame">
-              <p style="font-size: 16px; font-weight: bold;">DISEÑAR</p>
-            </div>
-            <div class="carousel__elemento">
-              <img src="./assets/2.png" alt="Constitution Square - Tower I">
-              <p style="font-size: 16px; font-weight: bold;">FOTOGRAFÍA</p>
-            </div>
-            <div class="carousel__elemento">
-              <img src="./assets/3.png" alt="Empire State Building">
-              <p style="font-size: 16px; font-weight: bold;">HACER PUBLICIDAD</p>
-            </div>
-            <div class="carousel__elemento">
-              <img src="./assets/4.png" alt="Harmony Tower">
-              <p style="font-size: 16px; font-weight: bold;">LEER UN BUEN LIBRO</p>
-            </div>    
-            <div class="carousel__elemento">
-              <img src="./assets/5.png" alt="Empire State Building">
-              <p style="font-size: 16px; font-weight: bold;">EDITAR</p>
-            </div>
-            <div class="carousel__elemento">
-              <img src="./assets/6.png" alt="Harmony Tower">
-              <p style="font-size: 16px; font-weight: bold;">BAILAR Y ESCUCHAR MÚSICA</p>
-            </div>
-            <div class="carousel__elemento">
-              <img src="./assets/7.png" alt="Empire State Building">
-              <p style="font-size: 16px; font-weight: bold;">VIAJAR</p>
-            </div>
-            <div class="carousel__elemento">
-              <img src="./assets/8.png" alt="Harmony Tower">
-              <p style="font-size: 16px; font-weight: bold;">HACER EJERCICIO</p>
-            </div>
+      <div class="container-all-carousel">
+        <h3 style="text-align: center; font-weight: bold;" class="about__content-title">COSAS QUE ME GUSTAN</h3>
+        <input type="radio" id="1" name="image-slide" hidden="" />
+        <input type="radio" id="2" name="image-slide" hidden="" />
+        <input type="radio" id="3" name="image-slide" hidden="" />
+        <div class="slide">
+          <div class="item-slide">
+            <img src="./assets/1.png" alt="Diseñar" />
           </div>
-          <button aria-label="Siguiente" class="carousel__siguiente">
-            <i class="fas fa-chevron-right"></i>
-          </button>
-        </div> 
-        <br/>
-        <br/> 
-        <br/> 
+          <div class="item-slide">
+            <img src="./assets/2.png" alt="Fotografía">      
+          </div>
+          <div class="item-slide">
+            <img src="./assets/3.png" alt="Publicidad">            
+          </div>
+        </div>
         <div role="tablist" class="carousel__indicadores"></div>
+
+        <div class="pagination">
+          <label class="pagination-item" for="1">
+            <img src="./assets/1.png" />
+          </label>
+          <label class="pagination-item" for="2">
+            <img src="./assets/2.png" />
+          </label>
+          <label class="pagination-item" for="3">
+            <img src="./assets/3.png" />
+          </label>
+        </div>
       </div>
-    </div>
   </div>
     </section>
     <section id="projects" class="projects sec-pad">
@@ -454,7 +433,7 @@
               <label class="contact__form-label" for="email">Email</label>
               <input
                 required
-                placeholder="email"
+                placeholder="Email"
                 type="text"
                 class="contact__form-input"
                 name="email"
@@ -559,10 +538,10 @@
           <a
             rel="noreferrer"
             target="_blank"
-            href="https://www.linkedin.com/in/jairocolondeveloper/"
+            href="https://jairocolon.netlify.app/"
             >
-            <spam style="font-size: medium;">JAIRO COLÓN <br />
-              JAICO SERVICES s.a.s</spam></a
+            <p style="font-size: medium; text-decoration: none;">JAIRO COLÓN <br />
+              JAICO SERVICES s.a.s</p></a
           >
         </div>
       </div>
