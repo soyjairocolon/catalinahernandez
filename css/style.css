@@ -258,14 +258,14 @@ img {
   max-height: 120rem;
   position: relative;
 }
-.home__img__simona {
+.home__simona {
   width: 600px;
   height: 600px;
   bottom: 25%;
   display: flex;
   position: relative;
   position: absolute;
-  left: 78%;
+  left: 76.5%;
   top:25%;
   transition: all 0.7s;
 }
@@ -350,15 +350,15 @@ img {
   background: #fafafa;
 }
 
-.about__img {
-  display: fixed;
+.about__cata {
+  display: flex;
   position: relative;
   position: absolute;
   left: 71.5%;
-  top: 19%;
+  top: 18%;
 }
 
-.about__img img {
+.about__img {
   width: 350px;
   border-radius: 0.5rem;
 }
@@ -373,18 +373,6 @@ img {
     grid-gap: 8rem;
   }
 }
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 .about__content-title {
   font-weight: 700;
   font-size: 2.8rem;
@@ -395,18 +383,7 @@ img {
     font-size: 2.4rem;
   }
 }
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
 
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 .about__content-details-para {
   font-size: 1.8rem;
   color: grey;
@@ -443,26 +420,10 @@ img {
   top: 19%;
 }
 
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 @media only screen and (max-width: 56.25em) {
   .projects__row {
     text-align: center;
   }
-}
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
 }
 .projects__row:last-child {
   margin-bottom: 0;
@@ -487,18 +448,6 @@ img {
     align-items: center;
   }
 }
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 .projects__row-content-title {
   font-weight: 700;
   font-size: 2.8rem;
@@ -508,18 +457,6 @@ img {
   .projects__row-content-title {
     font-size: 2.4rem;
   }
-}
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
 }
 .projects__row-content-desc {
   font-size: 1.8rem;
@@ -532,18 +469,6 @@ img {
   .projects__row-content-desc {
     font-size: 1.7rem;
   }
-}
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
 }
 
 .contact {
@@ -572,18 +497,6 @@ img {
     padding: 3rem;
   }
 }
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 .contact__form-field {
   margin-bottom: 4rem;
 }
@@ -591,18 +504,6 @@ img {
   .contact__form-field {
     margin-bottom: 3rem;
   }
-}
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
 }
 .contact__form-label {
   color: #666;
@@ -666,18 +567,6 @@ img {
     width: 100%;
   }
 }
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 
 .project-cs-hero {
   color: #fff;
@@ -697,18 +586,7 @@ img {
     min-height: unset;
   }
 }
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
 
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 .project-cs-hero__content {
   padding: 25rem 0 17rem 0;
   max-width: 90rem;
@@ -723,18 +601,7 @@ img {
     transform: translate(0, 0);
   }
 }
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
 
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 .project-cs-hero__info {
   margin: 3rem auto 0 auto;
   max-width: 80rem;
@@ -759,18 +626,7 @@ img {
     font-size: 2.4rem;
   }
 }
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
 
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
-}
 
 .project-details__showcase-img-cont {
   width: 100%;
@@ -856,18 +712,6 @@ img {
   .header__content {
     padding: 0 2rem;
   }
-}
-.about__img {
-  display: fixed;
-  position: relative;
-  position: absolute;
-  left: 71.5%;
-  top: 19%;
-}
-
-.about__img img {
-  width: 350px;
-  border-radius: 0.5rem;
 }
 .header__logo-container {
   display: flex;
