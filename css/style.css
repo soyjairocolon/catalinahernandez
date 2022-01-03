@@ -410,13 +410,13 @@ img {
     margin-bottom: 8rem;
   }
 }
-.about__img {
+/* .about__img {
   display: fixed;
   position: relative;
   position: absolute;
   left: 71.5%;
   top: 19%;
-}
+} */
 
 @media only screen and (max-width: 56.25em) {
   .projects__row {
