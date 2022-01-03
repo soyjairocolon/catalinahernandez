@@ -355,13 +355,11 @@ img {
   position: relative;
   position: absolute;
   left: 71.5%;
-  top: 20%;
-}
-
-.about__img {
-  width: 350px;
+  top: 20.5%;
+  width: 300px;
   border-radius: 0.5rem;
 }
+
 .about__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
