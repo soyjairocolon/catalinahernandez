@@ -95,6 +95,7 @@ img {
   letter-spacing: 3px;
   text-align: center;
 }
+
 @media only screen and (max-width: 37.5em) {
   .heading-primary {
     font-size: 4.5rem;
@@ -266,7 +267,7 @@ img {
   position: relative;
   position: absolute;
   left: 76.5%;
-  top:25%;
+  top: 25%;
   transition: all 0.7s;
 }
 
@@ -378,7 +379,10 @@ img {
 }
 @media only screen and (max-width: 37.5em) {
   .about__content-title {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+  }
+  .slide {
+    width: 310px;
   }
 }
 
@@ -624,7 +628,6 @@ img {
     font-size: 2.4rem;
   }
 }
-
 
 .project-details__showcase-img-cont {
   width: 100%;
@@ -1022,10 +1025,6 @@ img {
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    padding: 40px 0;
-  }
-
   .contenido-principal {
     flex-direction: column;
   }
